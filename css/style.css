@@ -1,40 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tagesschrift&display=swap');
-
-Add commentMore actions .tagesschrift-regular {
-    font-family: "Tagesschrift", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");Add commentMore actions
 
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: "Inter", sans-serif;
-    font-style: Normal;
-    
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
 }
 
 :root {
-    --white: #ffffff;
-    --black: #000000;
-    --red: #ed1c24;
-    --light-gray: #ffffffb3;
-    --dark-grey: #0f0f0f;
+  --white: #ffffff;
+  --black: #000000;
+  --red: #ed1c24;
+  --grey: #0f0f0f;
+  
 }
 
 body {
-    background-color: var(--black);
-    color: var(--white);
+  background-color: var(--black);
+  color: var(--white);
 }
-
 @font-face {
     font-family: futurak;
-    src: url("./fonts/futurak.ttf");
+    src: url('./fonts/futurak.ttf');
 }
 
 .logo-pic {
@@ -75,24 +67,24 @@ body {
     color: var(--white);
     padding: 15px;
 }
-
 .icon-heading {
+    /* border: 2px solid var(--white); */
     border-radius: 50%;
     background-color: var(--white);
     color: var(--red);
     padding: 4px;
 
 }
-
 .pic-container {
     width: 100%;
+    
 }
-
 .brand-heading {
     font-size: 4rem;
     text-align: center;
     font-weight: 300;
     margin-top: 50px;
+    font-family: fufuturak;
 
 }
 
@@ -100,21 +92,18 @@ body {
     font-family: futurak;
     font-size: 6rem;
 }
-
 .brand-para {
     font-size: 1.5rem;
     text-align: center;
     color: var(--light-gray);
     margin-bottom: 30px;
 }
-
+/* Grand started */
 .Grand-contrainer {
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content:center;
+    gap: 15px;
     flex-wrap: wrap;
-    margin: 50px;
-
 }
 
 .grand-children {
@@ -125,8 +114,7 @@ body {
     padding: 5px;
 
 }
-
-.Grand-btn {
+.G {
     background-color: var(--black);
     color: var(--white);
     padding: 10px;
@@ -135,13 +123,13 @@ body {
     border: 2px solid var(--light-gray);
 }
 
+
 .grand-children img {
-    width: 240px;
+    width: 150px;
     background-color: var(--white);
     padding: 20px;
-
-
 }
+/* ended */
 
 .section-container {
     background-color: var(--dark-grey);
@@ -155,25 +143,27 @@ body {
 .icn {
     display: inline-block;
 }
+.sub-section2 {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    justify-content: center;
+   
 
+
+}
 .sub-setion2-btn {
     padding: 15px;
     background-color: var(--dark-grey);
     color: var(--white);
     border-radius: 20px;
     border: 1px solid var(--white);
-}
 
-.sub-section2 {
-    display: flex;
-    gap: 150px;
-    justify-content: center;
-    width: 100%;
 
 }
-
-.heading-pic img {
-    width: 250px;
+.heading-pic img{
+    width: 300px;
+    height: 200px;
 }
 
 .franchise {
@@ -183,7 +173,6 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    width: 100%;
 }
 
 .sub-Franchise-1{
@@ -221,7 +210,7 @@ body {
 }
 .sub-Franchise-8{
    text-align: center;
-   font-family:futurak;
+   font font-family: ;
 
 }
 .franchise-location{
@@ -240,8 +229,6 @@ body {
 .promotion-section{
    background-color: var(--dark-grey);
    margin-top: 50px;
-   justify-content: center;
-   align-items: center;
 }
 .main-heading{
     display: block;
@@ -279,9 +266,10 @@ height: 360px;
 }
 .sub-branches-logo{
     display: block;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
-    
+    flex-direction: column;
+    align-items: center;
 }
 .burewala{
     text-align: center;
@@ -311,4 +299,41 @@ height: 360px;
     text-align: center;
     margin-top: 30px;
     font-weight: 900;
+}
+
+/* last part started */
+.last-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-last{
+    width: 237px;
+    height: 237px;
+}
+.sub-last img{
+    width: 237px;
+    height: 237px;
+}
+/* footer started */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 30px;
+    background-color: var(--dark-grey);
+
+}
+.sub-footer{
+    width: 283px;
+}
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-link a{
+    text-decoration: none;
+    color: var(--white);
 }
