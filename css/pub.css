@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");Add commentMore actions
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --red: #ed1c24;
+  --grey: #2c2b2b;
+  
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+}
+@font-face {
+    font-family: futurak;
+    src: url('./fonts/futurak.ttf');
+}
+
+.logo-pic {
+    width: 160px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbaritems a {
+    font-size: 1.5rem;
+    color: var(--white);
+    text-decoration: none;
+    margin: 10px;
+    justify-content: center;
+
+}
+
+.btn-one {
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 12px;
+    margin: 10px;
+}
+
+.btn-two {
+
+    border-radius: 25px;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 15px;
+}
+.icon-heading {
+    /* border: 2px solid var(--white); */
+    border-radius: 50%;
+    background-color: var(--white);
+    color: var(--red);
+    padding: 4px;
+
+}
+/* .book-container started */
+.book-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.left-side{
+    
+    border: 1px solid var(--white);
+}
+.left-side img{
+    width: 500px;
+}
+/* .book-container closed */
+
+ /* <!-- branchises section started  */
+
+ .Branches{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    
+    
+ }
+ p{
+    font-size: 1.rem;
+ }
+ h6{
+    font-size: 1.7rem;
+ }
+ /* .Branches section closed */
+ .footer{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 30px;
+    background-color: var(--dark-grey);
+    
+
+}
+.sub-footer{
+    width: 283px;
+}
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-link a{
+    text-decoration: none;
+    color: var(--white);
+}

@@ -306,6 +306,36 @@ p{
     
 
 }
+
+/* footer started */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 30px;
+    background-color: var(--dark-grey);
+
+}
+.sub-footer{
+    width: 283px;
+    gap: 10px;
+
+}
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
     
-
-
+}
+.footer-link a{
+    text-decoration: none;
+    color: var(--white);
+}
+h4{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+    margin: 10px;
+}

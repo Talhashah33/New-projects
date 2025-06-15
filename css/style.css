@@ -321,8 +321,9 @@ height: 360px;
     display: flex;
     justify-content: center;
     gap: 90px;
-    margin-top: 30px;
+    margin-top: 50px;
     background-color: var(--dark-grey);
+    
 
 }
 .sub-footer{
@@ -336,4 +337,11 @@ height: 360px;
 .footer-link a{
     text-decoration: none;
     color: var(--white);
+}
+h4{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+    margin: 10px;
 }
