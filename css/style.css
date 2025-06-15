@@ -183,6 +183,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    width: 100%;
 }
 
 .sub-Franchise-1{
@@ -239,6 +240,8 @@ body {
 .promotion-section{
    background-color: var(--dark-grey);
    margin-top: 50px;
+   justify-content: center;
+   align-items: center;
 }
 .main-heading{
     display: block;
